@@ -1,0 +1,25 @@
+.logo-img {
+  width: 100px;
+}
+
+body {
+  background-color: #e0e0d1;
+}
+
+.opaline {
+  background-color: rgba(128, 128, 128, 0.8);
+}
+
+footer {
+  background-color: #333333;
+}
+
+.btn.btn-danger.btn-lg {
+  background-color: #FFAA00;
+  border-color: #FFAA00;
+  margin-bottom: 10px;
+}
+
+.hamburger {
+  background-color: #FFAA00;
+}
