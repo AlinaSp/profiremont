@@ -28,6 +28,16 @@ footer {
   border-color: #FFAA00;
 }
 
+.btn:focus {
+  background-color: #FFAA00;
+  border-color: #FFAA00;
+}
+
+.btn:active {
+  background-color: #FFAA00;
+  border-color: #FFAA00;
+}
+
 .jumbotron .btn {
   color: #000;
   padding: 10px 24px;
@@ -59,6 +69,38 @@ h1 {
 .pushy a:hover {
   background: #FFAA00;
   color: #FFF;
+}
+
+.contact-list, .social-list {
+margin: 0;
+padding: 0;
+list-style: none;
+font-size: 20px;
+}
+
+.contact-list>li>a, .social-list>li>a {
+  color: #fff;
+}
+
+.social-list {
+  display: flex;
+  flex-direction: row;
+  max-width: 230px;
+  justify-content: space-between;
+  padding-bottom: 25px;
+}
+
+.social-list span.typcn::before, .social-list i.typcn::before {
+  font-size: 40px;
+}
+
+.social-list span.typcn:hover, .social-list i.typcn:hover {
+  color: #FFAA00;
+}
+
+span.typcn.small::before, i.typcn.small::before {
+  font-size: 24px;
+  padding-right: 30px;
 }
 
 @media (max-width: 525px) {
