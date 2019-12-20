@@ -4,10 +4,10 @@
 //===================
 
 setTimeout(function(){
-  $('.odometer.01').html(237);
+  $('.odometer.01').html(81);
 }, 1000);
 setTimeout(function(){
-  $('.odometer.02').html(62);
+  $('.odometer.02').html(17);
 }, 1000);
 
 
